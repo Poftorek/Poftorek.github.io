@@ -1,0 +1,422 @@
+.content a {
+    padding: 10px;
+}
+
+.container {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 1080px;
+    background: url(https://paintballmod.com/images/army/tlo3_flat-tiny.png) center top no-repeat
+}
+
+.search {
+    display: flex;
+    justify-content: center
+}
+
+label {
+    border: 1px solid #01d676;
+    padding: 20px
+}
+
+form {
+    text-align: center;
+    margin-bottom: 50px
+}
+
+tr {
+    text-align: center;
+    border-bottom: 1px solid #353535
+}
+
+a:link,
+a:visited,
+a {
+    text-decoration: none;
+    color: #01c06a
+}
+
+th a::after {
+    content: ' \21A1'
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #686868;
+    font-size: 15px;
+    background: #020202;
+    background-position: center top;
+    overflow: hidden;
+    width: 100vw;
+    margin: 0;
+}
+
+.table__container td {
+    background: #252525;
+}
+
+.logo-container {
+    display: flex;
+    margin-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    margin: auto;
+    display: block;
+    max-width: 300px;
+}
+
+input {
+    background: #555;
+    border: 1px solid #666;
+    color: #f5f5f5;
+    font-family: 'Roboto', sans-serif !important;
+    border-radius: 0;
+    padding: 6px;
+    margin-right: 5px;
+}
+
+
+button#action {
+    cursor: pointer;
+    background: #313131fa;
+    border: 1px solid #5a5a56;
+    color: #b3adad;
+    padding: 6px;
+    border-radius: 7px;
+    display: inline-block;
+    padding: 3.5px 8.25px;
+    outline: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    outline: 0;
+    border: 0;
+    border-radius: 3px;
+    background-color: #69dd61;
+    background: -moz-radial-gradient(center, ellipse cover, #e8a251 0%, #53b94c 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #69dd61), color-stop(100%, #53b94c));
+    background: -webkit-radial-gradient(center, ellipse cover, #69dd61 0%, #53b94c 100%);
+    background: -o-radial-gradient(center, ellipse cover, #69dd61 0%, #53b94c 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #e8a251 0%, #c64723 100%);
+    background: radial-gradient(ellipse at top, #69dd61 0%, #53b94c 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e8a251', endColorstr='#c64723', GradientType=1);
+    box-shadow: inset 0 -2px 1px 0 #4cb745;
+    padding: 7.35px 10px 7.35px 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    transition: .3s ease-in-out all;
+
+}
+
+.right a {
+    display: inline !important
+}
+
+.table-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+table {
+    margin-bottom: 1.4em;
+    width: 100%;
+    background-color: transparent;
+}
+
+table,
+td,
+th {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td {
+    padding: 10px;
+}
+
+th {
+    background-color: #555;
+    padding-right: 35px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #0000;
+    color: #d2d2d2;
+    line-height: 29px;
+    font-size: 13px;
+}
+
+.one-ban {
+    border-bottom: 1px solid #555555;
+}
+
+.head {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #0000;
+    border-radius: 4px;
+    color: #d2d2d2;
+    background-color: #555;
+}
+
+.table__container {
+    background-color: #252525;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+#network {
+    background: #111;
+    margin-bottom: 50px;
+}
+
+#network .left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+    float: none !important;
+    margin-left: 50px;
+    line-height: 66px;
+    background: #111;
+}
+
+#network a {
+    color: #f5f5f5;
+    font-weight: lighter;
+    white-space: nowrap;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14.75px;
+    -webkit-transition: .3s ease-in-out all;
+    -o-transition: .3s ease-in-out all;
+    transition: .3s ease-in-out all;
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+}
+
+#network a:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #01b462;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out
+}
+
+#network a:hover::before {
+    left: 0;
+    right: 0
+}
+
+#network a:last-child {
+    color: #30ce86
+}
+
+#network a:hover {
+    color: #b3b1b1 !important
+}
+
+#network .right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    line-height: 66px;
+    margin-right: 50px;
+    background: #111;
+}
+
+#network>.center-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    background: #111;
+}
+
+#network .tabbed a {
+    display: block;
+    color: #f5f5f5;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14.75px;
+    -webkit-transition: .3s ease-in-out all;
+    -o-transition: .3s ease-in-out all;
+    transition: .3s ease-in-out all;
+    margin-left: 20px
+}
+
+#network .install span {
+    display: block;
+    padding: 6px 10px 7px;
+    text-decoration: none
+}
+
+#network li a {
+    color: #d7d7d7
+}
+
+#network li a:hover {
+    color: #FFF;
+    background: url(/images/trans10.png) repeat;
+    background: rgba(255, 255, 255, 0.05)
+}
+
+#network li.current-tab a {
+    background: #FFF;
+    font-weight: 700
+}
+
+#network .text-separator,
+#network span {
+    color: #999
+}
+
+#toolbar {
+    padding: 12px 0 8px;
+    font-size: 1.1em;
+    color: #999
+}
+
+#toolbar img {
+    vertical-align: middle
+}
+
+#header {
+    padding: 40px 0 0;
+    min-height: 84px;
+    position: relative
+}
+
+#site-title {
+    font: normal 1.6em serif;
+    padding-bottom: 24px
+}
+
+#site-title span {
+    color: #999
+}
+
+#site-title a {
+    color: #000;
+    text-decoration: none
+}
+
+#navigation {
+    margin-bottom: 24px
+}
+
+#navigation a {
+    display: block;
+    text-decoration: none
+}
+
+#main-nav a {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.5em;
+    padding: 9px 14px
+}
+
+#main-nav li:first-child {
+    background: none
+}
+
+#main-nav li.current-tab a,
+#main-nav a:hover {
+    color: #FFF;
+    text-decoration: underline
+}
+
+#main-nav li.current-tab a {
+    background: url(/images/navigation-arrow.gif) no-repeat center bottom
+}
+
+#sub-nav {
+    background: #252525
+}
+
+#sub-nav a {
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-weight: 700;
+    color: #a3a9ab;
+    padding: 10px
+}
+
+#sub-nav li.current-tab a,
+#sub-nav a:hover {
+    text-decoration: underline
+}
+
+.main#main-three-columns .sidebar {
+    width: 193px
+}
+
+.main#main-three-columns #main-left {
+    width: 800px
+}
+
+.main#main-two-columns .sidebar {
+    width: 260px
+}
+
+.main#main-two-columns #main-left {
+    width: 951px
+}
+
+.main#main-two-columns .sidebar-50-50 {
+    width: 460px
+}
+
+.main#main-two-columns #main-left-50-50 {
+    width: 471px
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #101010;
+    padding: 10px;
+    text-align: center;
+}
