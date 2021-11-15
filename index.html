@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tekst BoboTV na dziś</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Festive&family=Fuggles&family=Gloria+Hallelujah&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css?v=1.6">
+</head>
+
+<body>
+  <div>
+    <div class="heading">...a BoboTV rzekł:</div>
+    <blockquote>
+      <p class="quote"></p>
+      <span class="number"></span>
+    </blockquote>
+
+
+    <footer>
+      <p class="main">
+        2021 © BoboTV | Wszystkie prawa zastrzeżone
+      </p>
+
+      <button class="btn btn-first btn-quote">Następny cytat</button>
+      <button class="btn btn-secondary btn-disable">Wyłącz dźwięk</button>
+      <button class="btn btn-third btn-enable">Włącz lektora</button>
+      <button class="btn btn-fourth" id="myBtn">Wszystkie teksty</button>
+
+		<div id="myModal" class="modal">
+
+		  <div class="modal-content">
+			<span class="close">&times;</span>
+			<ul id="list"></ul>
+      </div>
+
+		</div>
+    </footer>
+
+  </div>
+  <script src="./script.js?v=1.7"></script>
+</body>
+
+</html>
