@@ -84,6 +84,12 @@ const texts = [
   'każdy mi to mówi o alkoholu, chcą mnie zniechęcić',
   'nóżki mi latają same a chuj się napompował',
   'idę trysnąć z bogdana',
+  'memory find, Loniu, i wszystko jasne',
+  'a to nieee, ja jestem bardzo rasistą',
+  'nafurany jak stodoła',
+  'ja ledwo nie wiem co jest pięć',
+  'ja na golasa lecę ty',
+  '11.01.2022 #18:19 - BoboTV jest trzeźwy na TS3',
 ];
 const quoteElement = document.querySelector('.quote');
 const nextQuoteElement = document.querySelector('.btn-first');
