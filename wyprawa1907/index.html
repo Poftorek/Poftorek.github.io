@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dziennik - Wyprawa 1907</title>
+    <link rel="stylesheet" href="./style.css">
+    <script type="importmap">
+    {
+      "imports": {
+        "@material/web/": "https://esm.run/@material/web/"
+      }
+    }
+  </script>
+    <script type="module">
+        import '@material/web/all.js';
+        import { styles as typescaleStyles } from '@material/web/typography/md-typescale-styles.js';
+
+        document.adoptedStyleSheets.push(typescaleStyles.styleSheet);
+    </script>
+
+</head>
+
+<body>
+    <h1 class="md-typescale-display-medium">Wyprawa 1907</h1>
+    <form>
+        <md-outlined-text-field label="Numer zagadki" value="" id="puzzle" type="number" min="1"
+            max="44"></md-outlined-text-field>
+        <md-outlined-text-field label="Odpowiedź" value="" id="answer" type="text"></md-outlined-text-field>
+        <md-fab id="check_answer" style="display: inline-block;" type="button" label="Sprawdź">Sprawdź</md-fab>
+
+        <md-list style="max-width: 300px;">
+            <md-list-item id="answer_status"></md-list-item>
+        </md-list>
+
+        <md-fab id="reveal_hint1" style="display: inline-block;" label="Podpowiedź 1"></md-fab>
+        <md-list style="max-width: 300px;">
+            <md-list-item id="hint1"></md-list-item>
+        </md-list>
+        <md-fab id="reveal_hint2" style="display: inline-block;" label="Podpowiedź 2"></md-fab>
+   <md-list style="max-width: 300px;">
+            <md-list-item id="hint2"></md-list-item>
+        </md-list>    </form>
+    <script src="./script.js"></script>
+</body>
+
+</html>
